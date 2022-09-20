@@ -1,0 +1,7 @@
+{
+  "url": "http://qamid.tmweb.ru/admin",
+  "mail": "qamid@qamid.ru",
+  "pass": "qamid",
+  "emailInput": "[for='email'] > .login__input",
+  "passInput": "[for='pwd'] > .login__input"
+}

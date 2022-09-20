@@ -1,0 +1,23 @@
+{
+  "name": "7.7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AVKretov/js-hw7.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AVKretov/js-hw7/issues"
+  },
+  "homepage": "https://github.com/AVKretov/js-hw7#readme",
+  "dependencies": {
+    "cypress": "^10.8.0"
+  }
+}
