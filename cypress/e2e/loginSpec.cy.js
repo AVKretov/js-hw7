@@ -6,9 +6,7 @@ describe("adminLogin", () => {
   });
 
   it("happyPath", () => {
-    cy.get(`${data.emailInput}`).type(`${data.email}`);
-    cy.get(`${data.passInput}`).type(`${data.pass}`);
-    cy.get(".login__button").click();
+    cy.loginAdmPage(data.mail, data.pass);
     cy.contains("Администраторррская").should("be.visible");
   });
   it("negativePath", () => {

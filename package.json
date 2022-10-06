@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/AVKretov/js-hw7#readme",
   "dependencies": {
-    "cypress": "^10.8.0"
+    "cypress": "^10.9.0"
   }
 }

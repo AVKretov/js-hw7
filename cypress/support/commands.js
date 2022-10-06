@@ -8,7 +8,12 @@
 // https://on.cypress.io/custom-commands
 // ***********************************************
 //
-//
+Cypress.Commands.add("loginAdmPage", (mail, pass) => {
+  cy.visit("http://qamid.tmweb.ru/admin");
+  cy.get("[for='email'] > .login__input").type(mail);
+  cy.get("[for='pwd'] > .login__input").type(pass);
+  cy.get(".login__button").click();
+});
 // -- This is a parent command --
 // Cypress.Commands.add('login', (email, password) => { ... })
 //
